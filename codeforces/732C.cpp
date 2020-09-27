@@ -7,7 +7,6 @@ int main()
     max1=max(max(o,z),max(z,u));
     min1=min(min(o,z),min(z,u));
     nor=(o+u+z-max1-min1);
-    //cout<<max1<<"  "<<min1<<" "<<nor;
     if(z==o && o==u)
     {cout<<0;return 0;}
     s=max1-min1+max1-nor-2;
